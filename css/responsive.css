@@ -1180,7 +1180,7 @@
     .sm-title-small { font-size:16px !important; line-height:24px !important;}
     .sm-title-medium{ font-size:20px !important; line-height:26px !important;}
     .sm-title-large{ font-size:25px !important; line-height:33px !important;}
-    .sm-title-extra-large{ font-size:30px !important; line-height:38px !important;}
+    .sm-title-extra-large{ font-size:38px !important; line-height:38px !important; font-weight: 700 !important;}
     .sm-title-extra-large-2{ font-size:38px !important; line-height:40px !important;}
     .sm-title-extra-large-3{ font-size:38px !important; line-height:40px !important;}
     .sm-title-extra-large-4{ font-size:60px !important; line-height:68px !important;}
@@ -1572,6 +1572,11 @@
     .xs-margin-bottom-15px{ margin-bottom:15px !important}
     .xs-margin-bottom-20px{ margin-bottom:20px !important}
 
+    .btn-pad{
+        font-size: 11px;
+        padding: 11px 14px !important;
+        line-height: 15px;
+    }
     /* margin-top */
     .xs-margin-one-half-top{margin-top: 0.5% !important}
     .xs-margin-one-top{margin-top:1% !important}
@@ -2049,15 +2054,16 @@
     .xs-background-position-right-center { background-position: right center !important;}
 
     /* different text size */
+    .img-max-width{max-width: 25% !important;}
     .xs-text-extra-small { font-size:10px !important; line-height:15px!important;}
     .xs-text-small { font-size:11px !important; line-height:15px!important;}
     .xs-text-medium{ font-size:12px !important; line-height:17px !important;}
     .xs-text-large { font-size: 13px !important; line-height:18px !important; }
-    .xs-text-extra-large { font-size: 14px !important; line-height:22px !important;  }
+    .xs-text-extra-large { font-size: 18px !important; line-height:22px !important; font-weight: 600 !important;}
     .xs-title-small{ font-size:15px !important; line-height:22px !important;}
     .xs-title-medium{ font-size:18px !important; line-height:24px !important;}
     .xs-title-large{ font-size:21px !important; line-height:25px !important;}
-    .xs-title-extra-large{ font-size:22px !important; line-height:30px !important;}
+    .xs-title-extra-large{ font-size:30px !important; line-height:30px !important; font-weight: 700 !important;}
     .xs-title-extra-large-2{ font-size:26px !important; line-height:32px !important;}
     .xs-title-extra-large-3{ font-size:32px !important; line-height:38px !important;}
     .xs-title-extra-large-4{ font-size:36px !important; line-height:42px !important;}

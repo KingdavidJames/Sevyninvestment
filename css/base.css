@@ -38,10 +38,10 @@ Table of contents
 ====================================== */
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  font-size: 13px;
+  font-size: 15px !important;
   color: #707070;
   line-height: 22px;
   letter-spacing: 0.01em;
@@ -307,7 +307,8 @@ h6 {
   line-height: 40px;
 }
 .title-extra-large-2 {
-  font-size: 45px !important;
+  font-size:48px !important;
+  font-weight: 700 !important;
   line-height: 50px;
 }
 .title-extra-large-3 {
@@ -785,7 +786,7 @@ h6 {
   font-size: 75px !important;
 }
 .icon-big {
-  font-size: 60px !important;
+  font-size: 80px !important;
 }
 .icon-extra-large {
   font-size: 50px !important;
@@ -1185,6 +1186,14 @@ h6 {
 }
 .bg-dark-speech-blue {
   background: #1b1841 !important;
+}
+.fw-600{
+  font-weight: 600 !important;
+}
+.btn-pad{
+    font-size: 13px;
+    padding: 11px 25px !important;
+    line-height: 18px;
 }
 .bg-light-deep-yellow {
   background: #f5f0e9;
@@ -4195,4 +4204,7 @@ figure:hover img {
   cursor: pointer;
   border-radius: 5px;
   font-size: large;
+}
+.img-max-width{
+  max-width: 40% !important;
 }
